@@ -1,0 +1,12 @@
+@import "variables.scss";
+
+@mixin font($color: $main-color, $weight, $size) {
+  color: $color;
+  font-weight: $weight;
+  font-size: $size;
+}
+
+@mixin flex-column($display: flex, $f-direction: column) {
+  display: $display;
+  flex-direction: $f-direction;
+}
