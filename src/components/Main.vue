@@ -3,22 +3,22 @@
 </template>
 
 <script>
-import NewsList from "./NewsList";
+import NewsList from './NewsList';
 
 export default {
-  name: "main",
+  name: 'main',
   components: {
-    NewsList,
+    NewsList
   },
   props: {},
   data() {
     return {
-      title: "Main",
+      title: 'Main'
     };
   },
   computed: {},
   methods: {},
-  watch: {},
+  watch: {}
 };
 </script>
 
